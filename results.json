@@ -1,0 +1,53 @@
+{
+  "n_total": 90189,
+  "n_control": 44700,
+  "n_treatment": 45489,
+  "srm_chi2": 6.9024,
+  "srm_p": 0.008608,
+  "mde_relative": {
+    "retention_1": -0.020697,
+    "retention_7": -0.038404
+  },
+  "peeking_false_positive_rate": 0.194,
+  "metrics": {
+    "retention_7": {
+      "control_rate": 0.190201,
+      "treatment_rate": 0.182,
+      "absolute_diff_pp": -0.8201,
+      "ci_pp": [
+        -1.3282,
+        -0.3121
+      ],
+      "relative_diff": -0.043119,
+      "relative_ci": [
+        -0.069829,
+        -0.016409
+      ],
+      "p_value": 0.001554
+    },
+    "retention_1": {
+      "control_rate": 0.448188,
+      "treatment_rate": 0.442283,
+      "absolute_diff_pp": -0.5905,
+      "ci_pp": [
+        -1.2392,
+        0.0582
+      ],
+      "relative_diff": -0.013176,
+      "relative_ci": [
+        -0.02765,
+        0.001299
+      ],
+      "p_value": 0.07441
+    }
+  },
+  "holm_p": {
+    "retention_7": 0.003108,
+    "retention_1": 0.07441
+  },
+  "guardrails": {
+    "mann_whitney_p_rounds": 0.050209,
+    "zero_round_share_p": 0.168575
+  },
+  "recommendation": "do not ship"
+}
